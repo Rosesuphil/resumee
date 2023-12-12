@@ -1,0 +1,23 @@
+.row {
+
+    display: grid;
+    grid-template-columns: 1fr 2.2fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+
+
+
+.row :nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+
+
+
+.bg-green {
+    background-color: teal;
+}
